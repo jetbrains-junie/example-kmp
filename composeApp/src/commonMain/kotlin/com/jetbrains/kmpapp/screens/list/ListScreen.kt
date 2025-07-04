@@ -56,7 +56,7 @@ private fun ObjectGrid(
     modifier: Modifier = Modifier,
 ) {
     LazyVerticalGrid(
-        columns = GridCells.Adaptive(180.dp),
+        columns = GridCells.Adaptive(120.dp),
         modifier = modifier.fillMaxSize(),
         contentPadding = WindowInsets.safeDrawing.asPaddingValues(),
     ) {
